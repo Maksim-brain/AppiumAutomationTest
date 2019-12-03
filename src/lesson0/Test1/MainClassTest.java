@@ -1,9 +1,9 @@
+package lesson0.Test1;
+
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
-public class MainTest extends MainClass {
+public class MainClassTest extends MainClass {
     @Test
 
     public void  testGetLocolNumber(){

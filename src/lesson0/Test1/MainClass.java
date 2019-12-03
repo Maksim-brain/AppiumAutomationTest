@@ -1,4 +1,4 @@
-
+package lesson0.Test1;
 
 public class MainClass {
 
