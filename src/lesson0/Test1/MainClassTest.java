@@ -9,9 +9,11 @@ public class MainClassTest extends MainClass {
     public void  testGetLocolNumber(){
 
         int a = getLocalNumber();
-        if (a != 14)
+        //if (a != 14)
         {
-            Assert.fail("Ошибка, значение не равно 14");
+            //Assert.fail("Ошибка, значение не равно 14");
+            Assert.assertTrue("Значение не равно 14", a == 14);
+
         }
     }
     //
